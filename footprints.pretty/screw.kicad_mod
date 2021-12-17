@@ -1,0 +1,18 @@
+(footprint "screw" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A0B938)
+  (attr smd)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp afd0d30e-af26-49d8-bd13-c52f925328c9)
+  )
+  (fp_text value "screw" (at 0 1 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp ca026b2f-b3e5-454c-a812-057727ca980f)
+  )
+  (fp_text user "${REF}" (at 0 2.5 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp af7b042f-2c68-472e-b446-34e2ec17ea0b)
+  )
+  (pad "1" thru_hole circle (at 0 0) (size 4.5 4.5) (drill 3) (layers *.Cu *.Mask) (tstamp 6dde9c8e-54a1-48cc-805b-ad30469ebc80))
+)
